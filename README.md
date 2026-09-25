@@ -37,4 +37,4 @@ An advanced, interactive Microsoft Excel dashboard built to identify operational
 
 ##  Author
 **George E.** | Rock Quant Analytical Consult
-- LinkedIn: linkedin.com/in/george-ejembi-8489bb273
+- LinkedIn: ![linkedin.com/in/george-ejembi-8489bb273]
