@@ -1,23 +1,21 @@
-# OrderHive Logistics Performance Dashboard
+# OrderHive Logistics Performance Dashboard (Microsoft Excel)
 
-![Overview Dashboard](images/overview_dashboard.png)
-![Driver Analytics Dashboard](images/driver_analytics_dashboard.png)
+##  Project Overview
+An advanced, interactive Microsoft Excel dashboard built to identify operational bottlenecks, track financial metrics, and analyze driver efficiency for OrderHive Logistics. The project transforms raw operational data into a dynamic dark-mode UI to help management "fix what breaks and scale what works."
 
-## Project Overview
-A logistics performance dashboard that identifies where bottlenecks hide and which top drivers outperform to fix what breaks and scale what works. This dashboard provides actionable insights into order volumes, revenue, delivery delays, and driver performance.
-
-## Business Objectives
+##  Business Objectives
 - Track overall order volume, gross/net revenue, and on-time delivery rates.
 - Identify operational pressure peaks and their impact on delivery times.
 - Analyze the root causes of delivery delays (Restaurant, Order Processing, or Delivery).
 - Evaluate individual driver performance based on SLA breaches, refund rates, and delivery times.
 
-## Tech Stack
-- **Data Visualization:** Power BI (or Tableau)
-- **Data Transformation:** Power Query / DAX
-- **Data Source:** *(e.g., SQL, Excel, Mock Data)*
+##  Tech Stack & Excel Skills Used
+- **Data Transformation:** Power Query, Advanced Formulas (`XLOOKUP`, `INDEX/MATCH`, `SUMIFS`, `IFERROR`).
+- **Data Analysis:** Dynamic PivotTables, PivotCharts, Calculated Fields.
+- **UI/UX & Interactivity:** Form Control Slicers, Timeline filters, Conditional Formatting, Custom Chart Templates, Shape Layering for KPI cards.
+- **Dashboard Design:** Custom dark-mode theme, gridline removal, and dynamic text boxes for automated annotations.
 
-## Dashboard Features & Key Insights
+##  Dashboard Features & Key Insights
 
 ### Page 1: Executive Overview
 - **KPIs:** 72.32K Total Orders, $6.78M Gross Revenue, 25,628 On-Time Orders.
@@ -31,17 +29,12 @@ A logistics performance dashboard that identifies where bottlenecks hide and whi
 - **Driver Performance:** Analyzed drivers (Audrey, Gail, Helen, etc.) by average delivery time, refund rates, and tip service fees. 
 - **SLA Insights:** High SLA breach almost always drives a high refund rate, but not perfectly, indicating that driver behavior and strategies matter.
 
-## Repository Structure
-- `/dashboard`: Contains the main BI project file.
-- `/data`: Contains sample/mock data or data dictionaries.
-- `/docs`: Contains detailed business insights and data definitions.
-- `/images`: Contains screenshots used in this README.
-
 ##  How to Use
-1. Clone the repository: `git clone https://github.com/YourUsername/OrderHive-Logistics-Dashboard.git`
-2. Open the `.pbix` file in Power BI Desktop.
-3. Refresh the data source (if connected to a local dataset) or explore the pre-loaded data model.
+1. Clone the repository or download the `.xlsx` file from the `/dashboard` folder.
+2. Open the file in Microsoft Excel (Excel 2016 or later recommended).
+3. If prompted, enable editing and macros (if applicable).
+4. Use the "Driver Name" slicer in the top right corner to filter the entire dashboard dynamically.
 
-## Author
+##  Author
 **George E.** | Rock Quant Analytical Consult
 - LinkedIn: [linkedin.com/in/george-ejembi-8489bb273]
